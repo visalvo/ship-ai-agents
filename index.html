@@ -606,17 +606,6 @@ pre.code .n{color:var(--eridian)}
     <div class="rocky" data-frag="1" style="grid-area:1/1"><svg class="ic"><use href="#i-rocky"/></svg><span><span class="n">♪</span> <span>Crew poll: a data analysis agent. Which point, question?</span> <span class="n">♫</span></span></div>
   </div>
 </section>
-<section class="slide" data-id="the-runtime-save-resume-trace" data-sec="wake" data-title="The runtime: save, resume, trace">
-  <div class="head"><p class="eb">Runtime</p><h2 class="t">The runtime: <span class="hl">save, resume, trace</span></h2></div>
-  <figure class="fig">
-    <svg class="dg" data-dg="runtime" data-freeze=".735" viewBox="0 0 1360 440" style="max-height:430px" role="img" aria-label="Run 1 saves a checkpoint after each step and crashes at step 4. Run 2 loads checkpoint 3 and continues, pausing for human approval, then answers."></svg>
-  </figure>
-  <div class="grid3">
-    <div class="small"><b class="hl">Resume</b>, don't restart: crashes and 429s cost one step, not the run</div>
-    <div class="small"><b class="hl">Pause</b> for a human for as long as it takes: the state waits in the checkpointer</div>
-    <div class="small"><b class="hl">Trace</b> every step: one request = one trace, every LLM and tool call a span</div>
-  </div>
-</section>
 
 <section class="slide chapter" data-id="ch-mission-a-the-claims-run" data-sec="ma" data-title="02 · Mission A: the claims run">
   <svg class="art" viewBox="0 0 560 320" style="width:560px;height:320px" aria-hidden="true">
