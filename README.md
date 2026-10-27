@@ -4,7 +4,7 @@ Slides of the talk by **Salvatore Visaggi** (AI Engineer, Agilelab) at **MLOpsDa
 
 The thesis: the infrastructure around the LLM, the harness and the runtime, matters as much as the LLM. Two composite case studies from real projects: an insurance claims assistant built as a workflow, and a conversational data analysis agent.
 
-- **Slides**: [open the deck](index.html), a single HTML file that works offline. `←` `→` to move, `M` for the map, `F` for full screen.
+- **Slides**: [visalvo.github.io/ship-ai-agents](https://visalvo.github.io/ship-ai-agents/). `←` `→` to move, `M` for the map, `F` for full screen. The same deck is [index.html](index.html), a single HTML file that also works offline: download it and open it in a browser.
 - **PDF**: [hail-mary.pdf](hail-mary.pdf), one 16:9 page per slide.
 
 Both cases are composites of real projects: names, data and numbers are illustrative; the lessons are not.
